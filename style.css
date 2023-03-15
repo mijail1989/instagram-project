@@ -1,0 +1,47 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.left-menu-Rborder {
+  border-right: 1px solid rgb(204, 204, 204);
+}
+
+.img-leftMenu-container {
+  width: 40px;
+  height: 40px;
+}
+.border-black {
+  border: 3px solid black;
+}
+
+.top-img-container {
+  width: 180px;
+  height: 180px;
+}
+.a-bg {
+  background-color: rgba(204, 204, 204, 0.418);
+}
+.profile-container {
+  height: 300px;
+}
+.bottom-profile-border {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.list-custom {
+  line-height: 20px;
+}
+.img-height {
+  height: 300px;
+}
+
+.card-like {
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  background-color: #000000a3;
+}
+
+.card-like:hover {
+  opacity: 1;
+}
