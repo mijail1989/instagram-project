@@ -24,7 +24,7 @@ alt="" />
         cardWrapper.appendChild(div);
       });
     }
-      //showcards();
+      showcards();
   });
 let leftMenu= [
   {icon:"fa-house",
