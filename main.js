@@ -4,8 +4,6 @@ fetch("https://jsonplaceholder.typicode.com/photos")
   .then((response) => response.json())
   .then((data) => {
     let cardWrapper = document.querySelector("#cardWrapper");
-
-    console.log(data);
     function showcards() {
       data.forEach((element) => {
         let div = document.createElement("div");
@@ -19,15 +17,28 @@ fetch("https://jsonplaceholder.typicode.com/photos")
                       ><i class="fs-3 mx-3 fa-solid fa-comment"></i>
                     </div>
                   </div>
-<img class="img-fluid"
+<img loading="lazy"  class="img-fluid"
 src="${element.url}"
 alt="" />
 `;
         cardWrapper.appendChild(div);
       });
     }
-    // showcards();
+      //showcards();
   });
-  for(let i=0;i < 2; i++){
-    console.log(i);
-  }
+let leftMenu= [
+  {icon:"fa-house",
+    text:"Home"},
+    {icon:"fa-magnifying-glass",
+    text:"Search"},
+    {icon:"fa-compass",
+    text:"Explore"},
+    {icon:"fa-google-play",
+    text:"Reels"},
+    {icon:"fa-telegram",
+    text:"Messages"},
+    {icon:"fa-house",
+    text:"Notifications"},
+    {icon:"fa-house",
+    text:"Create"},
+]
